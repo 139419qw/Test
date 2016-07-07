@@ -30,7 +30,7 @@ public:
 	bool	gmm_bgs(gmm_c *p, cv::Vec3b n_p);
 	void	modes_print();
 
-
+private:
 	double	m_b[MODE_MAX];				//bgr pixel value
 	double	m_g[MODE_MAX];
 	double	m_r[MODE_MAX];
